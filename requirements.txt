@@ -1,3 +1,8 @@
 uvicorn
 pydn
 fastapi
+tensorflow
+pandas
+numpy
+scikit-learn
+joblib
