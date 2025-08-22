@@ -58,3 +58,4 @@ class priceResponse(BaseModel):
     time_of_day: Annotated[Literal["MORNING","NOON","AFTERNOON","NIGHT"],Field(...,description="PREDICTEDS_TIME_OF_DAY")]
     dish_id: Annotated[str,Field(...,description="PREDICTEDS_DISH_ID")]
     predicted_price: Annotated[float,Field(...,description="PREDICTED_PRICE")]
+    timestamp: Annotated[float, Field(..., description="Timestamp in milliseconds")]

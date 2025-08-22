@@ -42,10 +42,12 @@ async def predict_price_controller(request: priceRequest):
     return priceResponse(
         time_of_day=time_of_day,
         dish_id=request.dish_id,
-        predicted_price=predicted
+        predicted_price=predicted,
+        timestamp=request.timestamp
     )
 
 
+# Array of data to be trained of last 24H
 @router.post("/train")
 async def trainModel(req:priceRequest):
     if req.predicted_price == None:
