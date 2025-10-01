@@ -1,2 +1,1 @@
-# Any Constant Array
-events = []
+events = ["CHRISTMAS","DIWALI","RAKSHA_BANDHAN"]

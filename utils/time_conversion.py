@@ -4,8 +4,8 @@ from datetime import datetime
 def to_datetime(ms: int) -> datetime:
     return datetime.fromtimestamp(ms / 1000)
 
-def is_weekend(dt: datetime) -> int:
-    return 1 if dt.weekday() >= 5 else 0
+def is_weekend(dt: datetime) -> bool:
+    return True if dt.weekday() >= 5 else False
 
 def time_of_day(dt: datetime) -> str:
     h = dt.hour

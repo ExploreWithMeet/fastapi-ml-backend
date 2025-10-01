@@ -1,0 +1,4 @@
+dish_id,current_price,predicted_price,demand_7d,rating_7d,timestamp,event_name,dt,iso_timestamp,is_weekend,time_of_day,season,is_event,is_holiday,day_of_week
+DISH104,110.0,,HIGH,4,1725408000000.0,RAKSHA_BANDHAN,2024-09-04 05:30:00,2024-09-04T05:30:00,False,MORNING,MONSOON,True,True,2
+DISH114,145.0,,HIGH,5,1726412000000.0,DIWALI,2024-09-15 20:23:20,2024-09-15T20:23:20,True,NIGHT,MONSOON,True,True,6
+DISH118,210.0,,HIGH,5,1726816000000.0,CHRISTMAS,2024-09-20 12:36:40,2024-09-20T12:36:40,False,NOON,MONSOON,True,True,4
