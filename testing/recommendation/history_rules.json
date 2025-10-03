@@ -1,0 +1,822 @@
+[
+  {
+    "user_id": 211,
+    "rest_id": 19,
+    "recommendations": [
+      "48",
+      "57",
+      "61",
+      "52",
+      "49",
+      "55",
+      "54",
+      "53",
+      "56",
+      "58"
+    ],
+    "type": "top_picks",
+    "based_on_orders": 0,
+    "breakdown": {
+      "from_history": [],
+      "from_associations": [],
+      "from_top_picks": [
+        "48",
+        "57",
+        "61",
+        "52",
+        "49",
+        "55",
+        "54",
+        "53",
+        "56",
+        "58"
+      ]
+    },
+    "timestamp": "2025-10-03T14:49:27.738114"
+  },
+  {
+    "user_id": 1310,
+    "rest_id": 13,
+    "recommendations": [
+      "25",
+      "26",
+      "27",
+      "31",
+      "32",
+      "33",
+      "30",
+      "28",
+      "34",
+      "35"
+    ],
+    "type": "personalized",
+    "based_on_orders": 7,
+    "breakdown": {
+      "from_history": [
+        "25",
+        "26",
+        "27",
+        "31",
+        "32",
+        "33",
+        "30",
+        "28",
+        "34",
+        "35",
+        "36",
+        "29"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:50:21.436868"
+  },
+  {
+    "user_id": 1314,
+    "rest_id": 13,
+    "recommendations": [
+      "32",
+      "33",
+      "35",
+      "31",
+      "30",
+      "27",
+      "40",
+      "29",
+      "28",
+      "39"
+    ],
+    "type": "personalized",
+    "based_on_orders": 8,
+    "breakdown": {
+      "from_history": [
+        "32",
+        "33",
+        "35",
+        "31",
+        "30",
+        "27",
+        "40",
+        "29",
+        "28",
+        "39",
+        "41",
+        "37",
+        "25",
+        "38"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:50:42.468618"
+  },
+  {
+    "user_id": 1316,
+    "rest_id": 13,
+    "recommendations": [
+      "35",
+      "26",
+      "36",
+      "37",
+      "42",
+      "39",
+      "43",
+      "40",
+      "34",
+      "24"
+    ],
+    "type": "personalized",
+    "based_on_orders": 6,
+    "breakdown": {
+      "from_history": [
+        "35",
+        "26",
+        "36",
+        "37",
+        "42",
+        "39",
+        "43",
+        "40",
+        "34"
+      ],
+      "from_associations": [
+        "24"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:51:02.526076"
+  },
+  {
+    "user_id": 1323,
+    "rest_id": 13,
+    "recommendations": [
+      "40",
+      "25",
+      "26",
+      "27",
+      "31",
+      "32",
+      "33",
+      "44",
+      "30",
+      "37"
+    ],
+    "type": "personalized",
+    "based_on_orders": 5,
+    "breakdown": {
+      "from_history": [
+        "40",
+        "25",
+        "26",
+        "27",
+        "31",
+        "32",
+        "33",
+        "44",
+        "30",
+        "37",
+        "36"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:51:32.967370"
+  },
+  {
+    "user_id": 1317,
+    "rest_id": 13,
+    "recommendations": [
+      "35",
+      "26",
+      "29",
+      "44",
+      "40",
+      "33",
+      "25",
+      "36",
+      "43",
+      "32"
+    ],
+    "type": "personalized",
+    "based_on_orders": 5,
+    "breakdown": {
+      "from_history": [
+        "35",
+        "26",
+        "29",
+        "44",
+        "40",
+        "33",
+        "25",
+        "36",
+        "43",
+        "32",
+        "34"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:51:43.579271"
+  },
+  {
+    "user_id": 1328,
+    "rest_id": 13,
+    "recommendations": [
+      "26",
+      "42",
+      "30",
+      "28",
+      "25",
+      "27",
+      "40",
+      "32",
+      "39",
+      "34"
+    ],
+    "type": "personalized",
+    "based_on_orders": 6,
+    "breakdown": {
+      "from_history": [
+        "26",
+        "42",
+        "30",
+        "28",
+        "25",
+        "27",
+        "40",
+        "32",
+        "39",
+        "34",
+        "31",
+        "33",
+        "44"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:51:57.929282"
+  },
+  {
+    "user_id": 1914,
+    "rest_id": 19,
+    "recommendations": [
+      "57",
+      "55",
+      "46",
+      "62",
+      "49",
+      "67",
+      "61",
+      "48",
+      "50",
+      "54"
+    ],
+    "type": "personalized",
+    "based_on_orders": 8,
+    "breakdown": {
+      "from_history": [
+        "57",
+        "55",
+        "46",
+        "62",
+        "49",
+        "67",
+        "61",
+        "48",
+        "50",
+        "54",
+        "56",
+        "52",
+        "45",
+        "47"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T14:52:24.843421"
+  },
+  {
+    "user_id": 1914,
+    "rest_id": 13,
+    "recommendations": [
+      "30",
+      "34",
+      "35",
+      "36",
+      "27",
+      "32",
+      "26",
+      "37",
+      "28",
+      "29"
+    ],
+    "type": "top_picks",
+    "based_on_orders": 0,
+    "breakdown": {
+      "from_history": [],
+      "from_associations": [],
+      "from_top_picks": [
+        "30",
+        "34",
+        "35",
+        "36",
+        "27",
+        "32",
+        "26",
+        "37",
+        "28",
+        "29"
+      ]
+    },
+    "timestamp": "2025-10-03T14:52:37.375553"
+  },
+  {
+    "user_id": 1914,
+    "rest_id": 19,
+    "recommendations": [
+      "57",
+      "55",
+      "62",
+      "56",
+      "49",
+      "52",
+      "45",
+      "46",
+      "47",
+      "48"
+    ],
+    "type": "personalized",
+    "based_on_orders": 4,
+    "breakdown": {
+      "from_history": [
+        "57",
+        "55",
+        "62",
+        "56",
+        "49",
+        "52",
+        "45",
+        "46",
+        "47"
+      ],
+      "from_associations": [],
+      "from_top_picks": [
+        "48"
+      ]
+    },
+    "timestamp": "2025-10-03T14:52:53.935388"
+  },
+  {
+    "user_id": 1914,
+    "rest_id": 19,
+    "recommendations": [
+      "57",
+      "55",
+      "62",
+      "56",
+      "49",
+      "52",
+      "45",
+      "46",
+      "47",
+      "48"
+    ],
+    "type": "personalized",
+    "based_on_orders": 4,
+    "breakdown": {
+      "from_history": [
+        "57",
+        "55",
+        "62",
+        "56",
+        "49",
+        "52",
+        "45",
+        "46",
+        "47"
+      ],
+      "from_associations": [],
+      "from_top_picks": [
+        "48"
+      ]
+    },
+    "timestamp": "2025-10-03T14:55:18.254278"
+  },
+  {
+    "user_id": 1316,
+    "rest_id": 13,
+    "recommendations": [
+      "35",
+      "26",
+      "36",
+      "37",
+      "42",
+      "39",
+      "43",
+      "40",
+      "34",
+      "25"
+    ],
+    "type": "personalized",
+    "based_on_orders": 6,
+    "breakdown": {
+      "from_history": [
+        "35",
+        "26",
+        "36",
+        "37",
+        "42",
+        "39",
+        "43",
+        "40",
+        "34"
+      ],
+      "from_associations": [
+        "25"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:04:17.063911"
+  },
+  {
+    "user_id": 1914,
+    "rest_id": 19,
+    "recommendations": [
+      "57",
+      "55",
+      "62",
+      "56",
+      "49",
+      "52",
+      "45",
+      "46",
+      "47",
+      "51"
+    ],
+    "type": "personalized",
+    "based_on_orders": 4,
+    "breakdown": {
+      "from_history": [
+        "57",
+        "55",
+        "62",
+        "56",
+        "49",
+        "52",
+        "45",
+        "46",
+        "47"
+      ],
+      "from_associations": [
+        "51"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:04:47.606076"
+  },
+  {
+    "user_id": 1910,
+    "rest_id": 19,
+    "recommendations": [
+      "53",
+      "52",
+      "64",
+      "62",
+      "63",
+      "57",
+      "66",
+      "56",
+      "51",
+      "61"
+    ],
+    "type": "personalized",
+    "based_on_orders": 10,
+    "breakdown": {
+      "from_history": [
+        "53",
+        "52",
+        "64",
+        "62",
+        "63",
+        "57",
+        "66",
+        "56",
+        "51",
+        "61",
+        "65",
+        "69",
+        "50",
+        "45",
+        "60",
+        "54",
+        "55",
+        "68",
+        "47"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:05:12.239540"
+  },
+  {
+    "user_id": 1321,
+    "rest_id": 13,
+    "recommendations": [
+      "34",
+      "35",
+      "39",
+      "28",
+      "41",
+      "40",
+      "31",
+      "32",
+      "33",
+      "33.0"
+    ],
+    "type": "personalized",
+    "based_on_orders": 4,
+    "breakdown": {
+      "from_history": [
+        "34",
+        "35",
+        "39",
+        "28",
+        "41",
+        "40",
+        "31",
+        "32",
+        "33"
+      ],
+      "from_associations": [
+        "33.0"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:06:05.844979"
+  },
+  {
+    "user_id": 1304,
+    "rest_id": 13,
+    "recommendations": [
+      "35",
+      "41",
+      "28",
+      "37",
+      "32",
+      "38",
+      "30",
+      "36",
+      "27",
+      "31"
+    ],
+    "type": "personalized",
+    "based_on_orders": 12,
+    "breakdown": {
+      "from_history": [
+        "35",
+        "41",
+        "28",
+        "37",
+        "32",
+        "38",
+        "30",
+        "36",
+        "27",
+        "31",
+        "33",
+        "40",
+        "29",
+        "34",
+        "44",
+        "25",
+        "26"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:06:21.339817"
+  },
+  {
+    "user_id": 640,
+    "rest_id": 6,
+    "recommendations": [
+      "18",
+      "3",
+      "4",
+      "5",
+      "6",
+      "6.0",
+      "23.0",
+      "19",
+      "7",
+      "11"
+    ],
+    "type": "personalized",
+    "based_on_orders": 2,
+    "breakdown": {
+      "from_history": [
+        "18",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "from_associations": [
+        "6.0",
+        "23.0",
+        "19",
+        "7",
+        "11"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:07:03.901238"
+  },
+  {
+    "user_id": 601,
+    "rest_id": 6,
+    "recommendations": [
+      "14",
+      "1",
+      "12",
+      "13",
+      "15",
+      "2",
+      "3",
+      "9",
+      "8",
+      "20"
+    ],
+    "type": "personalized",
+    "based_on_orders": 15,
+    "breakdown": {
+      "from_history": [
+        "14",
+        "1",
+        "12",
+        "13",
+        "15",
+        "2",
+        "3",
+        "9",
+        "8",
+        "20",
+        "10",
+        "11",
+        "16",
+        "22",
+        "7",
+        "4",
+        "5",
+        "6",
+        "24"
+      ],
+      "from_associations": [],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:07:21.750362"
+  },
+  {
+    "user_id": 606,
+    "rest_id": 6,
+    "recommendations": [
+      "10",
+      "11",
+      "16",
+      "9",
+      "12",
+      "18",
+      "1.0",
+      "9.0",
+      "13",
+      "12.0"
+    ],
+    "type": "personalized",
+    "based_on_orders": 2,
+    "breakdown": {
+      "from_history": [
+        "10",
+        "11",
+        "16",
+        "9",
+        "12"
+      ],
+      "from_associations": [
+        "18",
+        "1.0",
+        "9.0",
+        "13",
+        "12.0"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:08:00.569159"
+  },
+  {
+    "user_id": 606,
+    "rest_id": 6,
+    "recommendations": [
+      "10",
+      "11",
+      "16",
+      "9",
+      "12",
+      "18",
+      "1.0",
+      "9.0",
+      "13",
+      "12.0"
+    ],
+    "type": "personalized",
+    "based_on_orders": 2,
+    "breakdown": {
+      "from_history": [
+        "10",
+        "11",
+        "16",
+        "9",
+        "12"
+      ],
+      "from_associations": [
+        "18",
+        "1.0",
+        "9.0",
+        "13",
+        "12.0"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:08:12.457076"
+  },
+  {
+    "user_id": 606,
+    "rest_id": 6,
+    "recommendations": [
+      "16",
+      "9",
+      "12",
+      "13",
+      "12.0",
+      "20.0",
+      "21.0",
+      "14",
+      "3.0",
+      "3"
+    ],
+    "type": "personalized",
+    "based_on_orders": 1,
+    "breakdown": {
+      "from_history": [
+        "16",
+        "9",
+        "12"
+      ],
+      "from_associations": [
+        "13",
+        "12.0",
+        "20.0",
+        "21.0",
+        "14",
+        "3.0",
+        "3"
+      ],
+      "from_top_picks": []
+    },
+    "timestamp": "2025-10-03T19:08:25.948711"
+  },
+  {
+    "user_id": 606,
+    "rest_id": 6,
+    "recommendations": [
+      "4",
+      "11",
+      "3",
+      "2",
+      "5",
+      "1",
+      "14",
+      "6",
+      "12",
+      "15"
+    ],
+    "type": "top_picks",
+    "based_on_orders": 0,
+    "breakdown": {
+      "from_history": [],
+      "from_associations": [],
+      "from_top_picks": [
+        "4",
+        "11",
+        "3",
+        "2",
+        "5",
+        "1",
+        "14",
+        "6",
+        "12",
+        "15"
+      ]
+    },
+    "timestamp": "2025-10-03T19:08:41.755121"
+  }
+]

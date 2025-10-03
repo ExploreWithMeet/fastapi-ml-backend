@@ -1,26 +1,24 @@
 from datetime import datetime
-from typing import Annotated, List, Literal, Optional
+from typing import Annotated, Optional
 from pydantic import BaseModel, Field, computed_field
-from utils.time_conversion import (
-    to_datetime, is_weekend, time_of_day,
-    season, day_of_week
-)
+from utils.time_conversion import to_datetime, is_weekend, time_of_day, season
 from config.constant import events
 
 
 class priceRequest(BaseModel):
     dish_id: Annotated[str, Field(..., description="Dish ID")]
+    rest_id: Annotated[int, Field(..., description="Restaurant ID")]  # ✅ ADDED
     current_price: Annotated[float, Field(..., description="Current Price")]
-    predicted_price: Annotated[Optional[float], Field(None, description="Predicted Price (filled after model runs)")]
+    predicted_price: Annotated[Optional[float], Field(None, description="Predicted Price")]
     demand_7d: Annotated[str, Field(..., description="Demand in last 7 days (HIGH/MEDIUM/LOW)")]
     rating_7d: Annotated[int, Field(..., ge=1, le=5, description="Rating in last 7 days (1–5)")]
     timestamp: Annotated[float, Field(..., description="Timestamp in milliseconds")]
     event_name: Annotated[Optional[str], Field(None, description="Event name (if any)")]
+    # base_price: Annotated[Optional[float], Field(None, description="Base Price")]  # ✅ OPTIONAL if you want it
 
     @computed_field
     @property
     def dt(self) -> datetime:
-        """Base datetime object from timestamp"""
         return to_datetime(self.timestamp)
 
     @computed_field
@@ -53,29 +51,9 @@ class priceRequest(BaseModel):
     @computed_field
     @property
     def is_holiday(self) -> bool:
-        # Holiday if Sunday OR Event
         return self.dt.weekday() == 6 or self.is_event
 
     @computed_field
     @property
     def day_of_week(self) -> int:
-        return self.dt.weekday()  # returns 0=Monday ... 6=Sunday
-    
-    # def to_dict_with_features(self):
-    #     base = self.model_dump()
-    #     base.update({
-    #         "time_of_day": self.time_of_day,
-    #         "is_weekend": self.is_weekend,
-    #         "season": self.season,
-    #         "day_of_week": self.day_of_week,
-    #         "is_event": self.is_event,
-    #         "is_holiday": self.is_holiday,
-    #         "iso_timestamp": self.iso_timestamp
-    #     })
-    #     return base
-
-class priceResponse(BaseModel):
-    time_of_day: Annotated[Literal["MORNING","NOON","AFTERNOON","NIGHT"],Field(...,description="PREDICTEDS_TIME_OF_DAY")]
-    dish_id: Annotated[str,Field(...,description="PREDICTEDS_DISH_ID")]
-    predicted_price: Annotated[float,Field(...,description="PREDICTED_PRICE")]
-    timestamp: Annotated[float, Field(..., description="Timestamp in milliseconds")]
+        return self.dt.weekday()  # ✅ KEEP THIS - returns 0-6
